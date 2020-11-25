@@ -13,4 +13,7 @@ public class Evento {
 	private Integer numeroDeInscripcion;
 	private Map<Integer, Deportista> participantes;
 	
+	public Evento(TipoDeEvento carreraNatacionEnAguasAbiertas) {
+		this.tipo = carreraNatacionEnAguasAbiertas;
+	}
 }
